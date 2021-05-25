@@ -17,5 +17,6 @@ main()
         {
             printf("%d x %d = %d \n",i,j,i*j);
         }
+        printf("\n\n");
     }
 }
