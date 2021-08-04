@@ -10,7 +10,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
+int main()
 {
     int n;
     char c;
@@ -19,6 +19,7 @@ main()
 
     c = n;
     printf("\n\n  The integer in %d as character is %c ",n,c);
+    
+    return 0;
 
 }
-

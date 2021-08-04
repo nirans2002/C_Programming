@@ -19,7 +19,7 @@ main()
     LSB = n%10;
     if(LSB == 5)
     {
-        printf("\n\n  The sqaure of %d is %d",n,(n*n));
+        printf("\n\n  The square of %d is %d",n,(n*n));
     }
     else
     {

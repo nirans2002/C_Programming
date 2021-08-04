@@ -1,25 +1,22 @@
-// **************************************************
-// Program name : .c
-// Author : Niran S Narayanan
-// Date written : 02/08/2021
-// Date complied : 02/08/2021
-// Aim of the program : *
-// Revision history : *
-// Version Author Remarks *
-//
-// 0.1 XYZ Initial draft *
-// 1.0 ABC First release *
-// 1.1 XYZ Modified on date *
-// *
-//***************************************************
+Square a number with LSB 5
 
+Aim:
+
+Algorithm:
+
+
+Source Code:
 
 // **************************************************
 
-// Program name : .c
+// Program name :
 // Author : Niran S Narayanan
-// Date written : 02/08/2021
-// Date complied : 02/08/2021
-// Aim of the program : *
+// Date written : 03/08/2021
+// Date complied : 03/08/2021
+// Aim of the program :
 
 //***************************************************
+
+
+Output:
+

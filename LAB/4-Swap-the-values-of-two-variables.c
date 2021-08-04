@@ -10,7 +10,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
+int main()
 {
     int a=0,b=0;
     printf("\n\n Enter two numbers to swap(a,b):\n");
@@ -18,6 +18,6 @@ main()
     a = a+b;
     b = a-b;
     a = a-b;
-    printf("\n\n the swaped values are %d,%d",a,b);
-    
+    printf("\n\n the swapped values are %d,%d",a,b);
+    return 0;
 }
