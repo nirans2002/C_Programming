@@ -8,12 +8,12 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
+int main()
 {
     float c=0,f=0;
     printf("\n\n  Enter the temperature value in Celsius :");
     scanf("%f",&c);
     f = (c*9/5) + 32 ;
     printf("\n\n  The temperature in Fahrenheit : %f",f);
-    
+    return 0;
 }

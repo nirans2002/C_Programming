@@ -11,7 +11,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
+ont main()
 {
     int n=0,LSB=0;
     printf("\n\n  Enter an integer number : ");
@@ -25,4 +25,5 @@ main()
     {
         printf("LSB is not equal to 5.");
     }
+    return 0;
 }

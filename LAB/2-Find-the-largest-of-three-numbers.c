@@ -10,7 +10,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
+int main()
 {
     int a=0,b=0,c=0,large;
     printf("\n\n  Enter three integers :\n");
@@ -30,4 +30,5 @@ main()
     }
     
     printf("\n\n  The largest number is %d",large);
+    return 0;
 }

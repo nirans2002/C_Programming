@@ -15,13 +15,13 @@ int main()
     int n=0,i,flag=0;
     printf("\n Enter an integer: ");
     scanf("%d",&n);
+    if (n==1)
+        {
+            printf(" 1 is niether a prime nor a composite number.");
+        }
     for (i=2;i<=(n-1);i++)
     {
-        if (n==1)
-        {
-            printf(" 1 is niether a prime nor a composite number");
-        }
-
+        
         if (n%i == 0)
         {
             flag = 1;
@@ -29,15 +29,17 @@ int main()
         }
         else
         {
-            if (flag == 0)
-            {
-                printf("the number %d is a prime number",&n);
-            }
-            else
-            {
-                printf("the number %d is NOT a prime number",&n);
-            }
+            flag = 0;
+            break;
         }
     }
+    if (flag == 0)
+        {
+            printf("The number %d is a prime number",&n);
+        }
+    else
+        {
+            printf("The number %d is NOT a prime number",&n);
+        }
     return 0;
 }
