@@ -1,6 +1,5 @@
 // Aim:To check whether the given number is prime or not
 
-
 // Algorithm:
 // Enter the number n
 // Perform the ‘mod’ operation from 2 to (n-1).

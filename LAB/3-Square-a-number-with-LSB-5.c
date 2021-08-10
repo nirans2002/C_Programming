@@ -1,4 +1,4 @@
-//     Square a number with LSB 5
+//    Square a number with LSB 5
 // Aim: To calculate the square of the number entered by the user, if the least
 // significant digit of that number is 5
 

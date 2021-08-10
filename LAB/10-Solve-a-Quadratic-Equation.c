@@ -1,15 +1,15 @@
 // Aim: To solve a quadratic equation
 
 // Algorithm
-//  Read in the values of the coefficients as A, B and C
-//  Evaluate D = B2– 4 * A * C
-//  Check if D>0
-// If Yes , the 1st root = R1 = -B + D /2A
-// 2nd root = R2 = -B + D /2A
-//  If D=0
-// R = -B /2A,
+// * Read in the values of the coefficients as A, B and C
+// * Evaluate D = B2– 4 * A * C
+// * Check if D>0
+//      If Yes , the 1st root = R1 = -B + D /2A
+//      2nd root = R2 = -B + D /2A
+// * If D=0
+//   R = -B /2A,
 // Display roots
-//  If D < 0
+// * If D < 0
 // Display the roots as imaginary
 
 #include<stdio.h>

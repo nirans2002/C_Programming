@@ -5,7 +5,7 @@
 // * Sum of variables stored to the 1st variable
 // * Difference of the current 1st variable and 2nd variable is stored as the new 2nd variable
 // * The difference of the current variables are stored as the 1st variable
-// * Display the result
+// * Display the result.
 
 #include<stdio.h>
 #include<conio.h>

@@ -4,7 +4,7 @@
 // * Declare a variable as type integer
 // * Read its value through the keyboard
 // * The entered number and ASCII value are checked
-// * If there is a match, display the ASCII value
+// * If there is a match, display the ASCII value.
 
 
 #include<stdio.h>

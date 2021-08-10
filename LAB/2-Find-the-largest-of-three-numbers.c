@@ -5,7 +5,7 @@
 // * Assign Large = A
 // * Check if B > Large , if Yes Large = B
 // * Check if C > Large , if Yes Large = C
-// * Display the value of large as the largest number
+// * Display the value of large as the largest number.
 
 #include<stdio.h>
 #include<conio.h>

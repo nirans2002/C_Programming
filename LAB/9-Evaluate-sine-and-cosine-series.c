@@ -32,29 +32,30 @@
 int main()
 {
     int i,n;
-    float x,rad=0,sum_sin=0,sum_cos=0,first_term,incr=0;
+    float x=0,incr;
    
     printf("\n Enter the angle in degrees: ");
     scanf("%f",&x);
-    printf("\n Enter th no.of terms in series: ");
+    printf("\n Enter the no.of terms in series: ");
     scanf("%d",&n);
-    rad = x*3.141/180;
-    //printf("rad %f",rad);
+    // x to radians
+    x = x*3.141/180;
 
-    // cosine series
+    // cosine series;
+    float sum_cos=0;
     sum_cos = 1;
     incr = 1;
     for (i=2;i<=n;i=i+2)
     {
-        incr = (incr*(x*x))/(i*(i-1));
+        incr = -(incr*(x*x))/(i*(i-1));
         sum_cos = sum_cos + incr;
     }
 
     //Sine  Series
-    first_term = rad;
-    sum_sin = first_term;
-    incr = 1;
-    for (i=2;i<=(n-1);i=i+2)
+    float sum_sin=0;
+    incr = x;
+    sum_sin = incr;
+    for (i=2;i<(n-1);i=i+2)
     {
         incr = -(incr*x*x)/(i*(i+1));
         sum_sin = sum_sin + incr;

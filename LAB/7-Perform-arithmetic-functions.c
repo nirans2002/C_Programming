@@ -1,7 +1,6 @@
 
 // Aim:To perform various arithmetic functions such as Addition, Subtraction, Multiplication, Division, Remainder Calculation etc.
 
-
 // Algorithm:
 // * Display a menu with 5 options and request the user to enter the choice
 // * Go to suitable sections based on the entered choice
