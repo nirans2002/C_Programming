@@ -1,4 +1,5 @@
 // Aim: To evaluate sine and cosine series
+
 // Algorithm
 // (a) Sine Series
 //  Input the angle in degrees and number of terms as X and N respectively

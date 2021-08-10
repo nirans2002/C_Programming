@@ -6,7 +6,7 @@
 // * Go to suitable sections based on the entered choice
 // * Prompt the user to enter two numbers
 // * Perform the relevant operation
-// * Display the result
+// * Display the result.
 // * Warn the user with “Invalid Choice”, if the entered choice is wrong
 
 

@@ -1,7 +1,7 @@
 // Aim: Convert the temperature in degree Celsius to Fahrenheit
 
 // Algorithm
-// * Read temperature in degree Celsius into a variable C
+// * Read temperature in degree Celsius into a variable C.
 // * Calculate F using the formula F = 9/5 C + 32
 // * Display the result.
 

@@ -8,9 +8,9 @@
 //      2nd root = R2 = -B + D /2A
 // * If D=0
 //   R = -B /2A,
-// Display roots
+//   Display roots
 // * If D < 0
-// Display the roots as imaginary
+//  Display the roots as imaginary
 
 #include<stdio.h>
 #include<conio.h>

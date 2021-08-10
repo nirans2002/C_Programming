@@ -4,7 +4,7 @@
 // * Each time perform mod operation with 2,3 and 5
 // * If the remainder is not zero, increment the counter
 // * End loop
-// * Display the counter, as the result 
+// * Display the counter, as the result. 
 
 #include<stdio.h>
 #include<conio.h>

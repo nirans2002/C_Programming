@@ -1,7 +1,7 @@
 // Aim:To check whether the given number is prime or not
 
 // Algorithm:
-// Enter the number n
+// Enter the number n.
 // Perform the ‘mod’ operation from 2 to (n-1).
 // If the remainder is zero, ‘n’ is not a prime number.
 // If remainder is non-zero, then ‘n’ is a prime number

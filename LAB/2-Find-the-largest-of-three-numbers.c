@@ -1,4 +1,4 @@
-// Aim: To find the largest of three numbers
+// Aim: To find the largest of three numbers.
 
 // Algorithm
 // * Read 3 numbers A,B,C
