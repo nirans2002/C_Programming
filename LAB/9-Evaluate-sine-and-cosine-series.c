@@ -11,6 +11,7 @@
 //  Add sum with Incr until i = N - 1
 //  End loop
 //  Display sum as the result
+
 // (b) Cosine Series
 //  Input the angle in degrees and the number of terms as X and N respectively
 //  Convert angle to radians
@@ -31,14 +32,36 @@
 int main()
 {
     int i,n;
-    float x,rad=0,sum,t;
-    rad = x*3.141/180;
-
+    float x,rad=0,sum_sin=0,sum_cos=0,first_term,incr=0;
+   
     printf("\n Enter the angle in degrees: ");
     scanf("%f",&x);
     printf("\n Enter th no.of terms in series: ");
     scanf("%d",&n);
-    printf("rad %f",rad);
+    rad = x*3.141/180;
+    //printf("rad %f",rad);
+
+    // cosine series
+    sum_cos = 1;
+    incr = 1;
+    for (i=2;i<=n;i=i+2)
+    {
+        incr = (incr*(x*x))/(i*(i-1));
+        sum_cos = sum_cos + incr;
+    }
+
+    //Sine  Series
+    first_term = rad;
+    sum_sin = first_term;
+    incr = 1;
+    for (i=2;i<=(n-1);i=i+2)
+    {
+        incr = -(incr*x*x)/(i*(i+1));
+        sum_sin = sum_sin + incr;
+    }
+
+    printf("The Sum of Cosine Series is  = %f\n",sum_cos);
+    printf("The Sum of Sine Series is  = %f\n",sum_sin);
 
 
     return 0;
