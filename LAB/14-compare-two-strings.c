@@ -21,22 +21,21 @@ void main() {
 
 
     printf("Enter the first string\n");
-    scanf("%s",string1);
+    scanf("%s",&string1);
     printf("Enter the second string\n");
-    // gets(string2);
-    scanf("%s",string2);
+    scanf("%s",&string2);
 
 
     for (int i = 0; string1[i] != '\0'; i++) {
         if (string1[i] != string2[i]){
             flag = 1;
             diff = i;
-            printf("the strings differ at positon %d\n",diff+1);
+            printf("The strings differ at positon %d\n",diff+1);
             
         }
     }
 
     if (flag == 0){
-        printf("the strings are identical");
+        printf("The strings are identical");
     }
 }

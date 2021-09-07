@@ -8,22 +8,33 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <string.h>
 
 void main()
 {
+    int i=0;
     char string1[100];
     char string2[100];
     char string3[100];
 
 
     printf("Enter the first string\n");
-    gets(string1);
+    scanf("%s",&string1);
     printf("Enter the second string\n");
-    gets(string2);
+    scanf("%s",&string2);
 
-     for (int i = 0; string1[i] != '\0'; i++)
-      {
+     for (i = 0; string1[i] != '\0'; i++)
+     {
+       string3[i] = string1[i];
+       
+     }
+     for (int  j = i+1 ; string2[j] != '\0'; j ++)
+     {
+       string3[j] = string2[j];
+     }
 
-    }
+     printf("The string after concatenation:\n");
+    
+     printf("%s",string3);
+  
 }
+// TODO: not done error
