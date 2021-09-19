@@ -24,5 +24,5 @@ void main()
         }
     }
     // n = strlen(string);
-    printf("no of characters (direct): %d",n);
+    printf("no of characters : %d",n);
 }

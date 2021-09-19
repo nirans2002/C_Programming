@@ -7,7 +7,6 @@
 //  End loop
 //  Display the final sorted array
 
-//Buble sort for 10 No in Ascending order
 
 #include<stdio.h>
 #include<conio.h>
@@ -16,7 +15,7 @@ int main()
 {
     int i,j,temp,n;
     //taking input
-    printf("Enter the no.of elemts in the array: ");
+    printf("Enter the no.of elements in the array: ");
     scanf("%d",&n);
     // init array with n elements
     int a[n];

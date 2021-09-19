@@ -30,7 +30,7 @@ void main() {
         if (string1[i] != string2[i]){
             flag = 1;
             diff = i;
-            printf("The strings differ at positon %d\n",diff+1);
+            printf("The strings differ at position %d\n",diff+1);
             
         }
     }

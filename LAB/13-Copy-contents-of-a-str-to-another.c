@@ -15,12 +15,11 @@ void main()
     int i;
     printf("Enter the String 1 : ");
     gets(string1);
-    for (i=0;i<=100;i++)
+    for (i=0;string1[i]!='\0';i++)
     {
         string2[i]= string1[i];
     }
-    // error in str 1
-    
+    string2[i]= '\0';
     printf("The string 1 : ");
     puts(string1);
     printf("The string 2 : ");
