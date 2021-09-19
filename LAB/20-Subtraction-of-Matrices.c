@@ -11,12 +11,39 @@
 
 #include <stdio.h>
 #include <conio.h>
-
-void main()
+//function prototype
+int sub(int *A[],int *B[],int row,int col);
+int main()
 {
     // martices 2 x 2
-    int A[2][2], B[2][2];
+    int A[2][2], B[2][2],result[2][2];
     int i,j;
-    printf("Enter the first array:\n");
-
+    printf("Enter the first matrix:\n");
+    for (int i = 0; i <=2;  i++)
+    {
+        for ( int j = 0;j <= 2; j++)
+        {
+            printf("Enter the element in %d row %d column: ");
+            scanf("%d",&A[i][j]);
+        }
+    }
+    printf("Enter the second matrix:\n");
+    for (int i = 0; i <=2;  i++)
+    {
+        for ( int j = 0;j <= 2; j++)
+        {
+            printf("Enter the element in %d row %d column: ");
+            scanf("%d",&B[i][j]);
+        }
+    }
+    sub(A,B);
+    return 0;
 }
+int sub(int *A[],int *B[],int row,int col)
+{
+    for(int i=0;i<=row;i++)
+    {
+        printf("%d \t",A[i]-B[i]);
+    }
+}
+// TODO #2:

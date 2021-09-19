@@ -6,7 +6,7 @@ void main()
     // martices 2 x 2
     int A[2][2], B[2][2],sum[2][2];
     int i,j;
-    printf("Enter the first array:\n");
+    printf("Enter the first matrix:\n");
     for (i=0; i<2; i++)
     {
         for (j=0; j<2; j++)
@@ -16,7 +16,7 @@ void main()
             scanf("%d",&A[i][j]);
         }
     }
-    printf("Enter the second array:\n");
+    printf("Enter the second matrix:\n");
     for (i=0; i<2; i++)
     {
         for (j=0; j<2; j++)
@@ -34,4 +34,6 @@ void main()
         sum[i][j] = A[i][j] + B[i][j];
         }
     }
+
+    
 }
