@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 main(){
-    int a,b,c;
+    int a,b=01,c;
     printf("enter a value for a:");
     scanf("%d",&a);
     printf("enter a value for b:");
